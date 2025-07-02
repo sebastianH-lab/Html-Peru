@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body   {
+	background-color: #CCFFFF;
+}
+
+.principal {
+	width: 1200px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+nav ul {
+	list-style-type: none;
+}
+header h1 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: normal;
+	font-size: 2.5em;
+}
+header h2 {
+	font-size: 1.1em;
+	margin-top: 0px;
+	font-weight: normal;
+}
+#logo ,header h1{
+	display: inline-block;
+	margin-bottom: 0px;	
+}
+.menusuperior {
+	width: 1200px;
+	display: inline-block;
+	text-align: right;
+}
+.menusuperior li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.menusuperior a {
+	font-size: 0.9em;
+	color: #181818;
+	text-decoration: none;
+	padding-bottom: 3px;	
+}
+.navegación {
+	width: 1200px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	background-color: #FFFFFF;
+}
+.menu >li {
+	position: relative;
+	display: inline-block;
+}
+.menu > li > a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+	padding-right: 30px;
+	color: #353535;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+.submenu {
+	visibility: hidden;
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.submenu li a {
+	display: block;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	color: #FFFFFF;
+	font-family: "Open Sans";
+	text-decoration: none;
+}
+article {
+	width: 900px;
+	margin-right: 5px;
+	font-size: 0.9em;
+}
+article, aside {
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+aside {
+	position: relative;
+	width: 235px;
+	background-color: #999999;
+	box-shadow: 0px 2px 5px #1cla19;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #FFFFFF;
+	font-size: 0.9em;
+}
+aside img {
+	margin-right: 0px;
+}
+
